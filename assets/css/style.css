@@ -452,7 +452,7 @@ body {
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 359px) {
  .produk{   
       width: 160px;
       margin-left: 3px;
