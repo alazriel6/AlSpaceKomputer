@@ -452,3 +452,14 @@ body {
 
 }
 
+@media (max-width: 360px) {
+ .produk{   
+      width: 160px;
+      margin-left: 3px;
+ }
+ .produk img{
+     width: 160px;
+ }
+}
+
+
