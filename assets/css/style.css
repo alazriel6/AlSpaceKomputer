@@ -455,7 +455,7 @@ body {
 @media (max-width: 359px) {
  .produk{   
       width: 160px;
-      margin-left: 3px;
+      margin-left: 10px;
  }
  .produk img{
      width: 160px;
