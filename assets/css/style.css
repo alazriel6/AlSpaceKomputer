@@ -324,6 +324,7 @@ body {
   .header{
      background-color: rgb(0, 0, 0);
      position: relative;
+     top: 0px;
   }
 
   .background-header {
