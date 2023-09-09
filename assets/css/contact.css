@@ -285,17 +285,20 @@ Footer End
 --------------------------------------------- 
 */
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 
+  .kontak{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    background-color: white;
+  }
+  
   .contactForm {
     width: 350px;
   }
-  .contactForm .inputBox
-  {
-      position: relative;
-      width: 400px;
-      margin-top: 0px;
-  }
+
   
   .contactForm h1 {
     font-size: 25px;
@@ -325,19 +328,19 @@ Footer End
         margin-top: -10px;
       }
 
-    .menu{
-      width:320px;
-      height:20px;
-    }
-    .menu .toggle{
-      height:30px;
-      width:30px;
-    }
-    .menu.active li{
-      scale:1;
-    }
-    .menu li a{
-      width:20px;
-      height:20px;
-    }
+      .menu{
+        width:300px;
+        height:20px;
+      }
+      .menu .toggle{
+        height:30px;
+        width:30px;
+      }
+      .menu.active li{
+        scale:1;
+      }
+      .menu li a{
+        width:18px;
+        height:18px;
+      }
 }
