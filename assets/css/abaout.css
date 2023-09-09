@@ -199,20 +199,19 @@ p {
     0 0 0 6px #fff;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     
     .q {
         margin-left: 0px;
         margin-top: 10px;
         margin-bottom: 20px;
-        width: 320px;
-        height: 200px;
+        width: 300px;
+        height: 190px;
         border-radius: 12px;
-        
     }
 
     p {
-      margin-left: 50px;
+      margin-left: 25px;
       margin-bottom: 30px;
       margin-top: 30px;
   }
@@ -236,19 +235,19 @@ p {
         margin-top: -10px;
       }
 
-    .menu{
-      width:320px;
-      height:20px;
-    }
-    .menu .toggle{
-      height:30px;
-      width:30px;
-    }
-    .menu.active li{
-      scale:1;
-    }
-    .menu li a{
-      width:20px;
-      height:20px;
-    }
+      .menu{
+        width:300px;
+        height:20px;
+      }
+      .menu .toggle{
+        height:30px;
+        width:30px;
+      }
+      .menu.active li{
+        scale:1;
+      }
+      .menu li a{
+        width:18px;
+        height:18px;
+      }
 }
